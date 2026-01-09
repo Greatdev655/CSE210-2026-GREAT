@@ -13,7 +13,7 @@ class Program
 
         int square = SquareNumber(userNumber);
 
-        DisplayResult(userName , square);
+        DisplayResult(userName , square); 
         
     }
 
@@ -39,12 +39,12 @@ class Program
     static int SquareNumber(int number)
     {
         int numberSquared = number * number;
-        return number;
+        return numberSquared;
     }
 
     static void DisplayResult(string name , int numberSquared)
     {
-        Console.WriteLine($"{name}, your the square of your favorite number is {numberSquared}");
+        Console.WriteLine($"{name},  the square of your favorite number is {numberSquared}");
     }
 
 
