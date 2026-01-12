@@ -47,6 +47,8 @@ class Program
         Console.WriteLine($"{name},  the square of your favorite number is {numberSquared}");
     }
 
+    
+
 
 
     
