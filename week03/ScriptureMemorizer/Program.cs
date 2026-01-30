@@ -55,11 +55,11 @@ class Program
                 break;
             }
 
-            scripture.HideRandomWords();
+            scripture.HideRandomWords(); 
 
             if (scripture.IsCompletelyHidden())
             {
-                Console.Clear();
+                Console.Clear(); 
                 Console.WriteLine(scripture.GetDisplayText());
                 Console.WriteLine();
                 Console.WriteLine("All words are hidden. Well done!");
